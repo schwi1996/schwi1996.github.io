@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'quintessentialregular';
+    src: url('quintessential-regular-webfont.woff2') format('woff2'),
+         url('quintessential-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lovers_quarrelregular';
+    src: url('loversquarrel-regular-webfont.woff2') format('woff2'),
+         url('loversquarrel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cinzelsemi_bold';
+    src: url('cinzel-semibold-webfont.woff2') format('woff2'),
+         url('cinzel-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

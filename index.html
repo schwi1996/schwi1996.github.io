@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Helen Liu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helen Liu Portfolio</title>
+    <link href="./img/favicon.png" rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navigator">
+            <div id="one">
+                <a href="#intro">Home</a>
+            </div>
+            <div id="two">
+                <a href="#about">About</a>
+            </div>
+            <div id="three">
+                <a href="#portfolio">Portfolio</a>
+            </div>
+        </nav>
+        <div id="intro">
+            <div id="intropad">
+                <h3>Hello, I'm Helen. Nice to meet you!</h3>
+                <h1><span class="typing"></span></h1>
+                <br>
+                <a href="#portfolio"><button class="option1">Portfolio</button></a>
+                <button class="option2"><a href="./pdf/HelenLiuResume.pdf" target="_blank">Resume</a></button>
+            </div>
+        </div>
+        <div id="about">
+            <div id="aboutpad">
+                <h1>About Me</h1>
+                <br>
+                <p class="sans">
+                    I am currently pursuing the Computer Systems Technology Diploma at BCIT.
+                    <br>
+                    <br>
+                    I also previously completed a bachelor's in biochemistry at UBC. During my first 
+                    degree, I worked in many positions ranging from an office assistant to customer 
+                    service in the food industry to quality assurance testing. These opportunities also 
+                    allowed me to translate between Mandarin and English, ensure customer satisfaction, 
+                    and handle team schedules and communication respectively.
+                    <br>
+                    <br>
+                    After graduation, I worked full-time at SGS, an agriculture lab while juggling my 
+                    part-time job at the local pool as a lifeguard and instructor and a course at UBC.
+                    <br>
+                    <br>
+                    I am always open to learning new knowledge (such as Computer Science!) and I value 
+                    each and every opportunity given to me.
+                    <br>
+                    <br>
+                    Once again, it is very nice to meet you! Hopefully, we can meet in-person someday.
+                </p>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div id="portfoliopad">
+                <h1>Portfolio</h1>
+                <br>
+                <div id="port1">
+                    <img id="umediicon" alt="umedi" src="./img/umediicon.png">
+                    <div id="port1text">
+                        <h2>UMedi | Sep - Dec 2022</h2>
+                        <h4 class="sans">[Academic]</h4>
+                        <p class="sans">HTML, CSS, JavaScript, FireStore, FireBase, BootStrap, Github, Figma</p>
+                        <p class="sans">Agile methods, pair programming, team programming, code reviews</p>
+                        <p class="sans">An application designed to remind and track users of their prescription and non-prescription medication.</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div id="port2">
+                    <img id="qdsicon" alt="qds" src="./img/qdsicon.jpg">
+                    <div id="port2text">
+                        <h2>QDS Hacks | Jan 2023</h2>
+                        <h4 class="sans">[Hackathon]</h4>
+                        <p class="sans">HTML, CSS, JavaScript, FireStore, FireBase, BootStrap, Github, Figma</p>
+                        <p class="sans">Agile methods, pair programming, team programming, code reviews</p>
+                        <p class="sans">More details to be updated.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="footerpad">&#9400;Helen Liu 2022</div>
+        </footer>
+        <button onclick="topFunction()" id="scrollTopButton" title="Scroll to top">&#11165;</button>
+    </div>
+
+    <!-- Link to JavaScript functions -->
+    <script src="./js/client.js"></script>
+    <script src="./js/scrolltopbutton.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <script>
+
+        var typed = new Typed(".typing", {
+            strings: ["I like Coding", 
+                      "I like Music", 
+                      "I like Reading", 
+                      "I like Writing", 
+                      "I like Drawing",
+                      "How about you?"],
+
+            typeSpeed: 125,
+            backSpeed: 50,
+            loop: true,
+            smartBackspace: true,
+            showCursor: true,
+            cursorChar: '|'
+        })
+    </script>
+</body>
+</html>
