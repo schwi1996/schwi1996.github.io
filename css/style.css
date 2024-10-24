@@ -177,38 +177,29 @@ body {
     padding-top: 6em;
 }
 
-#portfolio h1 {
+#portfolio h1, h3 {
     text-align: center;
 }
 
-#port1 {
+.port-entry {
     padding-left: 25%;
 }
 
-#port1text {
+.port-entry-text {
     padding-left: 10%;
 }
 
-#umediicon {
+.portfolioicon {
     float: left;
     max-width: 100px;
     height: auto;
     margin-right: 2em;
+    border-radius: 5px;
 }
 
-#port2 {
-    padding-left: 25%;
-}
-
-#port2text {
-    padding-left: 10%;
-}
-
-#qdsicon {
-    float: left;
-    max-width: 100px;
-    height: auto;
-    margin-right: 2em;
+#qds2024link {
+    text-decoration: none;
+    color: #50846e;
 }
 
 #footerpad {
